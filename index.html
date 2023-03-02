@@ -397,28 +397,25 @@
       </section>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <form action="" class="order-form">
+          <form action="#" class="order-form">
             <h2>Залиште свої дані, ми вам передзвонимо</h2>
-            <label for="" class="order-label">Iм'я</label>
+            <label for="name" class="order-label">Iм'я</label>
             <div class="form-field">
-              
-              <input id="name" type="text" class="order-input" name="name"></inut>
+              <input id="name" type="text" class="order-input" name="name" />
               <svg class="icon">
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </div>
             <label for="phone" class="order-label"> Телефон </label>
             <div class="form-field">
-              
-              <input id="phone" type="tel" class="order-input" name="phone"></inut>
+              <input id="phone" type="tel" class="order-input" name="phone" />
               <svg class="icon">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
             </div>
-            <label for="email" class="order-label"> Пошта </label>
+            <label for="mail" class="order-label"> Пошта </label>
             <div class="form-field">
-              
-              <input id="email" type="email" class="order-input" name="email"></inut>
+              <input id="mail" type="email" class="order-input" name="mail" />
               <svg class="icon">
                 <use href="./images/icons.svg#email"></use>
               </svg>
@@ -433,11 +430,17 @@
                 class="order-textarea"
               ></textarea>
             </div>
-           <label class="order-label check-field" for="agreement">
-              <input class="checkbox" type="checkbox" name="agreement" id="agreement">
+            <label class="order-label check-field" for="agreement">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="agreement"
+                id="agreement"
+              />
               <span class="check-btn"></span>
-              Погоджуюся з розсилкою та приймаю  <a href="#">Умови договору</a></label>
-              
+              Погоджуюся з розсилкою та приймаю
+              <a href="#">Умови договору</a></label
+            >
 
             <button type="submit" class="submit-btn">Відправити</button>
           </form>
@@ -512,7 +515,7 @@
             </li>
           </ul>
         </div>
-        <form action="" class="newsletter-form">
+        <form action="#" class="newsletter-form">
           <label for="email" class="newsletter-label">
             Підписатися на розсилку
           </label>
